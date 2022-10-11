@@ -1,0 +1,22 @@
+{
+  "name": "nodeclass2022",
+  "version": "1.0.0",
+  "description": "in class stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tman99877/Nodeclass2022.git"
+  },
+  "author": "Tyrese Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tman99877/Nodeclass2022/issues"
+  },
+  "homepage": "https://github.com/Tman99877/Nodeclass2022#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
