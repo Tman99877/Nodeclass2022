@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Tman99877/Nodeclass2022#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
   }
 }
