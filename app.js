@@ -1,11 +1,14 @@
-const { response } = require('express');
 var express = require('express');
 var mongoose = require('mongoose')
+var axios = require('axios')
 var app = express();
+const bodyParser = require('body-parser');
 
-app.use('/static', express.static ("public"));
-app.use(express.urlencoded({extended: true}))
-app.set("view engine","ejs");
+app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.json());
+
+app.use('/static', express.static("public"));
+app.set("view engine", "ejs");
 
 const Todo = require('./models/todo.models');
 const mongodb = 'mongodb+srv://wallace_tyrese:cz69Jl8MzqgTRr8w@cluster0.bq0gq1u.mongodb.net/?retryWrites=true&w=majority'
